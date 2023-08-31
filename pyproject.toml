@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "spacex"
+version = "0.1.0"
+description = ""
+authors = ["Hari <hariprasadk@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+alembic = "^1.11.3"
+pydantic = "^2.3.0"
+pytest = "^7.4.0"
+pydantic-settings = "^2.0.3"
+requests = "^2.31.0"
+pytest-mock = "^3.11.1"
+asyncpg = "^0.28.0"
+psycopg2-binary = "2.9.7"
+sqlalchemy = "2.0.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
