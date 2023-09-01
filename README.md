@@ -37,7 +37,7 @@ For the simplicity of this project, the following are built in ETL format:
 - Data Loading: The data is loaded into a database in batches.
 - src/core/data_pipeline has the code for the above-mentioned steps. 
 - **The code is as modular as possible to make it easy to extend and maintain. I have avoided external frameworks like airflow, dagster or airbyte and tried to create a simple dag dependency structure.**
-![componets.png](componets.png)
+![components.png](components.png)
 
 
 ## How to run the project
